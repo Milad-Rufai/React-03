@@ -1,0 +1,20 @@
+
+/* .info{
+    display: flex;
+    flex-direction: column;
+} */
+.info p{
+    margin-top: 2px;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+.info ul{
+    list-style-type: none;
+    display: inline-flex;
+    gap: 5px;
+    margin-top: 5px;
+    list-style-position: inside;
+    padding-left: 10px;
+
+
+}

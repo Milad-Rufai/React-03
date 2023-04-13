@@ -1,0 +1,25 @@
+.App-body{
+  background-image: linear-gradient(rgb(241, 67, 204), yellow);
+  padding: 20px;
+
+}
+
+.App {
+
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  margin: auto;
+  justify-content: center;
+}
+
+.image-box{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  width: 555px;
+  margin: 15px;
+  box-sizing: content-box;
+  padding: 10px;
+}
+
