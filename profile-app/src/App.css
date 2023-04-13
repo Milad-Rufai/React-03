@@ -7,7 +7,9 @@
 .App {
 
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  flex-basis: 30%;
+  margin: 2.5%;
   width: auto;
   margin: auto;
   justify-content: center;
