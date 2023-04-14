@@ -6,7 +6,7 @@ import(Users)
 
 
 const Profile = () => {
-    const objlog = Users.map((Users) => {
+    const itemlog = Users.map((Users) => {
         return <li className='item'>
             <div>
             <img src={Users.picture} alt='1'></img>
@@ -21,7 +21,7 @@ const Profile = () => {
     return (
         <div className='info'>
             <ul>
-                {objlog}
+                {itemlog}
             </ul>
         </div>
     )
