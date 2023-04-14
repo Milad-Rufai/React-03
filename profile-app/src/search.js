@@ -28,24 +28,6 @@ function Search() {
   );
 }
 
-//   return (
-//     <div>
-//       <form>
-//         <input className='search-box' onChange={handleChange} value={state.query} type="search" />
-//       </form>
-//       <ul>
-//         {(state.query === '' ? "" : state.list.map(Users => {
-//           return <li key={Users.name}>{Users.name}</li>
-//         }))}
-//       </ul>
-//       <ul>
-//         {(state.query === '' ? "No posts match the query" : !state.list.length ? "Your query did not return any results" : state.list.map(Users => {
-//           return <li key={Users.name}>{Users.name}</li>
-//         }))}
-//       </ul>
-//     </div>
-//   )
-// }
 
 
 
