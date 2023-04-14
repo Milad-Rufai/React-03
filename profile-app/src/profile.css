@@ -1,18 +1,26 @@
-
-/* .info{
-    display: flex;
-    flex-direction: column;
-} */
-.info p{
-    margin-top: 2px;
-    margin-bottom: 0;
-    margin-left: 10px;
+.info p {
+  margin-top: 2px;
+  margin-bottom: 0;
+  margin-left: 10px;
 }
-.info ul{
-    list-style-type: none;
-    display: inline-flex;
-    gap: 5px;
-    margin-top: 5px;
-    list-style-position: inside;
-    padding-left: 10px;
+
+.info ul {
+  list-style-type: none;
+  list-style-position: inside;
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 50%;
+  width: auto;
+  margin: auto;
+  justify-content: center;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  width: 555px;
+  margin: 8px;
+  box-sizing: content-box;
+  padding: 10px;
 }
