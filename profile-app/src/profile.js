@@ -5,15 +5,15 @@ import(Users)
 
 
 
-const Profile = () => {
+const Use = () => {
     const itemlog = Users.map((Users) => {
         return <li className='item'>
             <div>
             <img src={Users.picture} alt='1'></img>
             </div>
             <div>
-            <p className='' >{Users.id}</p>
-            <p className='info-name'>{Users.title} {Users.firstName} {Users.lastName}</p>
+            <p>{Users.id}</p>
+            <p>{Users.title} {Users.firstName} {Users.lastName}</p>
             </div>
         </li>
     
@@ -48,4 +48,4 @@ const Profile = () => {
 //     )
 // }
 
-export default Profile
+export default Use
