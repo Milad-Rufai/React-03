@@ -1,6 +1,5 @@
 import React from 'react'
 import './Search.css';
-import './Profile.css';
 import { useState } from 'react';
 import { Users } from './Users'
 
